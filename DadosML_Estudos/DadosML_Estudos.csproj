@@ -10,6 +10,11 @@
   <ItemGroup>
     <Folder Include="Files\Input\" />
     <Folder Include="Files\Output\" />
+    <Folder Include="DTO\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.1.0" />
   </ItemGroup>
 
 </Project>
