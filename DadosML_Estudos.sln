@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DadosML_Estudos", "DadosML_Estudos\DadosML_Estudos.csproj", "{4A08C68F-601E-48EC-B56E-F0035C4E5675}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A08C68F-601E-48EC-B56E-F0035C4E5675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A08C68F-601E-48EC-B56E-F0035C4E5675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A08C68F-601E-48EC-B56E-F0035C4E5675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A08C68F-601E-48EC-B56E-F0035C4E5675}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30DED83E-1F78-497A-AA3A-FA67B6F2CE79}
+	EndGlobalSection
+EndGlobal
