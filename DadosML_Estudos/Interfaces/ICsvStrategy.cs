@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace DadosML_Estudos.Interfaces
 {
-    public interface ICsvBuilder
+    public interface ICsvStrategy
     {
-        ICsvStrategy GetResult();
-        void BuildFileService();
-        void BuildReader();
-        void BuildWriter();
+        Stream Start(string fileName);
+
     }
 }

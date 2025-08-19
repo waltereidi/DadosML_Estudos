@@ -4,12 +4,13 @@ using DadosML_Estudos.Interfaces;
 
 namespace DadosML_Estudos.Services
 {
-    internal class CsvReader : ICsvReader
+    public class CsvReader 
     {
         private Stream CsvFile { get; set; }
 
         public CsvReader(string fileName)
         {
+
         }
         public void ReadCsv()
         {
@@ -21,17 +22,4 @@ namespace DadosML_Estudos.Services
             throw new NotImplementedException();
         }
     }
-}
-
-
-Console.WriteLine("Hello, World!");
-
-// Exemplo de leitura de CSV
-using var reader = new StreamReader("dados.csv");
-using var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
-
-var registros = csv.GetRecords<dynamic>();
-foreach (var registro in registros)
-{
-    Console.WriteLine(registro);
 }

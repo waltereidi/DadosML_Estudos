@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace DadosML_Estudos.Interfaces
 {
-    internal interface ICsvReader
+    public interface ICsvTemplate
     {
-        void ReadCsv();
-        void WriteResult();
+        void IdentifyColumn();
+        void ConvertColumn();
+        
     }
 }

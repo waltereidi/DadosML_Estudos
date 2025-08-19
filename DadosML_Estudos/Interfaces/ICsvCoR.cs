@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace DadosML_Estudos.Interfaces
 {
-    internal interface ICsvAbstractFactory
+    public interface ICsvCoR
     {
-        ICsvReader CreateCsvBuilder(string fileName);
     }
 }
