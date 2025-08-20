@@ -8,8 +8,8 @@ namespace DadosML_Estudos.Interfaces
 {
     public interface ICsvTemplate
     {
-        void IdentifyColumn();
-        void ConvertColumn();
+        void IdentifyColumns();
+        void ConvertColumns();
         
     }
 }

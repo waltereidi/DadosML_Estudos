@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DadosML_Estudos.Interfaces
+namespace DadosML_Estudos.Enum
 {
-    public interface ICsvCoR
+    public enum ColumnType
     {
-        void GetFile(Stream file);
-        bool WriteFile();
+        SimpleAggregateReduction, 
+        ToInteger, 
     }
 }
