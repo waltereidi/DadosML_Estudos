@@ -8,7 +8,7 @@ namespace DadosML_Estudos.Interfaces
 {
     public interface ICsvCoR
     {
-        void GetFile(Stream file);
-        bool WriteFile();
+        void SetFile(Stream file , string fileName);
+        Task WriteFile();
     }
 }
